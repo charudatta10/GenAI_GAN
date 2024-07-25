@@ -12,7 +12,7 @@
 ![GitHub](https://img.shields.io/github/license/charudatta10/laughing-fishstick-GenAiTamago)
 
 <!-- Project Description -->
-Genarative AI examples using GAN netwoeks  
+Generative AI examples using GAN networks
 
 <!-- SHARING ON SOCIAL MEDIA -->
 
