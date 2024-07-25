@@ -174,3 +174,6 @@ pyrightconfig.json
 samples
 
 *.pth.tar
+
+# Ignore dynaconf secret files
+.secrets.*
