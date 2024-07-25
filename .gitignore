@@ -177,3 +177,5 @@ samples
 
 # Ignore dynaconf secret files
 .secrets.*
+
+data
