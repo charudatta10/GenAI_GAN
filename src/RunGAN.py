@@ -41,7 +41,7 @@ MODEL_NAME = 'ConditionalGAN'
 DEVICE = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 model =  Generator().to(DEVICE)
-PATH = 'G_c.pth.tar'
+PATH = '../data/models/G_c.pth.tar'
 
 checkpoint = torch.load(PATH)
 model.load_state_dict(checkpoint['state_dict'])
@@ -58,7 +58,7 @@ def get_sample_image(G, n_noise=100):
         y_hat = G(z,c).view(10, 28, 28)
         result = y_hat.cpu().data.numpy()
         img[j*28:(j+1)*28] = np.concatenate([x for x in result], axis=-1)
-    imsave(f"test_image.png", img)
+    imsave(f"../data/Genopt/test1_image.png", img)
     return img
 
 model.eval()
