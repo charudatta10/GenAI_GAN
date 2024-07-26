@@ -152,3 +152,4 @@ imshow(get_sample_image(G, n_noise), cmap='gray')
 # Saving params.
 torch.save(D.state_dict(), 'D.pkl')
 torch.save(G.state_dict(), 'G.pkl')
+torch.save(G, "vanilaGAN.pt")
