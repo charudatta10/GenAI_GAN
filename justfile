@@ -1,4 +1,4 @@
-#    GAN based Generative AI tools aggregator  
+#    <one line to give the program's name and a brief idea of what it does.>  
 #    Copyright © 2024 Charudatta
 #
 #    This program is free software: you can redistribute it and/or modify
@@ -19,18 +19,54 @@
 set windows-shell := ["pwsh.exe", "-NoLogo", "-Command"]
 
 default:
-    just --list --unsorted
+    @just --choose
 
+# create files and directories
 init:
+    #!pwsh
     git init
+    New-Item -ItemType "file" -Path ".gitattribute", "main.py", "requirements.json", "config.json"
+    New-Item -ItemType "directory" -Path "docs", "src", "tests"
+    New-Item -ItemType "file" -Path .\* -Name "__init__.py" -ErrorAction SilentlyContinue
+    gig gen python > .gitignore 
+    Add-LicenseHeader
+    7z a archives.7z .gitignore
 
+# set configuration variables
+config:
+    #!pwsh
+    config.json >> .gitignore
+    Set-EnvFromJson
+
+# add documentation to repo
+docs:
+    #!pwsh
+    conda activate blog
+    python -m mkdocs new .
+
+# genearte and readme to repo    
 readme:
-    python C:/Users/chaitrali/Documents/GitHub/readme-generator
+    #!pwsh
+    conda activate w
+    python C:/Users/$env:username/Documents/GitHub/readmeGen/main.py
 
+# version control repo with git
 commit message="init":
     #!pwsh
     git add .
     git commit -m {{message}}
+
+# create windows executable
+exe file_name:
+    #!pwsh
+    pyinstaller src/{{file_name}} --onefile
+
+# run python unit test 
+tests:
+    #!pwsh
+    python -m unittest discover -s tests
+
+# Add custom tasks, enviroment variables
 
 cgan:
     #!pwsh
@@ -38,16 +74,5 @@ cgan:
     conda activate w
     p RunGAN.py
     
-###################
-#alias b := build
-#build:
-#  echo 'Building!'
-#hi: 
-#   echo "hi"; echo "bye"
-#bye:
-#   #!pwsh
-#   echo "hi"
-#   echo "bye"
-#call inpt: bye
-#   echo {{inpt}}
+
 

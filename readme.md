@@ -1,94 +1,38 @@
  
-<!-- PROJECT Banner -->
-![SVG Banners](https://svg-banners.vercel.app/api?type=luminance&text1=laughing-fishstick-GenAiTamago&width=1020&height=460)
-<!-- PROJECT TITLE - PROJECT LOGO -->
-# laughing-fishstick-GenAiTamago ![Logo]()
+# laughing-fishstick-GenAiTamago
 
-<!-- PROJECT SHIELDS -->
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/charudatta10/laughing-fishstick-GenAiTamago?include_prereleases)
-![GitHub last commit](https://img.shields.io/github/last-commit/charudatta10/laughing-fishstick-GenAiTamago)
-![GitHub issues](https://img.shields.io/github/issues-raw/charudatta10/laughing-fishstick-GenAiTamago)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/charudatta10/laughing-fishstick-GenAiTamago)
-![GitHub](https://img.shields.io/github/license/charudatta10/laughing-fishstick-GenAiTamago)
+<!-- Badges: Project Status GitHub -->
+![license](https://flat.badgen.net/static/license/GPL-3.0/blue)
+![release](https://flat.badgen.net/github/release/charudatta10/laughing-fishstick-GenAiTamago)
+![commits](https://flat.badgen.net/github/commits/charudatta10/laughing-fishstick-GenAiTamago)
+![last-commit](https://flat.badgen.net/github/last-commit/charudatta10/laughing-fishstick-GenAiTamago)
 
-<!-- Project Description -->
-Generative AI examples using GAN networks
+[![sponsor](https://flat.badgen.net//static/sponsor/%E2%9D%A4?)](https://github.com/sponsors/charudatta10)
+[![contact](https://flat.badgen.net//static/contact/%E2%98%8E)](https://charudatta10.github.io/LinkNet/)
+[![work](https://flat.badgen.net//static/portfolio/%F0%9F%96%BF)](https://charudatta10.github.io/myblog/)
+![project](https://flat.badgen.net///static/project/laughing-fishstick-GenAiTamago)
 
-<!-- SHARING ON SOCIAL MEDIA -->
+<!-- Badges: Tools used -->
+`python` `just` `gig` `pytorch` `numpy` 
 
-<!-- TABLE OF CONTENTS -->
+## Documentation 🗎
 
-## Project Preview 📖 <!-- Usage screenshots -->
-
-![Project Preview]()
+Generative AI examples using GAN networks.  
 
 ## Features 🌟
 
-- Vanilla GAN
-- DCGAN
-- WGAN
-- CGAN
+- Vanilla GAN 
+- DCGAN 
+- WGAN 
+- CGAN 
  
-
-## Built With 🔧
-![](https://img.shields.io/badge/Python-6504D9?style=for-the-badge&logo=python&logoColor=fff) ![](https://img.shields.io/badge/Pytorch-57B5A2?style=for-the-badge&logo=pytorch&logoColor=fff) ![](https://img.shields.io/badge/Numpy-AE8A1E?style=for-the-badge&logo=numpy&logoColor=000) 
-
-<!-- Documentation  -->
 
 ## Getting Started 🌱
 
-### Dependencies ⧉
-
-- pytorch
-- numpy
-
-
-### Installation ■■■■■■■■■■
-
-1. To install from binaries:  
-   Download the binary file from the release and double-click to use it.
-
-2. To install from source:
-
-```PowerShell
-gh repo clone charudatta10/laughing-fishstick-GenAiTamago
-```
- 
-## Documentation 🗎
-
-- python model.py
-
-
-![Screenshot]()
-
-## FAQ ?
+Run `just` cmd in command prompt.
 
 ✨[Report a 🐛 or Request a ⭐](https://github.com/charudatta10/laughing-fishstick-GenAiTamago/issues)✨
 
+Copyright :copyright: 2024 CK :tm: @ charudatta10.   
 
-
-<!-- Community Guidelines [Author, Contributors, contributors guidelines, users, license ] -->
-
-## Authors 👱
-
-The author of this project is charudatta10.  
-
-## Contributors 👪
-
-| ![](profile-picture.png) |
-| :---: | 
-| charudatta10 |
-| [💻](#code-charudatta10)  [📖](#doc-charudatta10)  [🎨](#design-charudatta10)  [💡](#example-charudatta10)  [🤔](#ideas-charudatta10)|
-
-
-### Contribution guidelines
-
-The contribution to this project should adhere to GPL3 and respect the copyright claims of charudatta10.
-
-## License 📜
-
-Copyright :copyright: 2024 ![logo](favicon05.svg):tm: @ charudatta10.   
-The project is licensed [GPL3](./LICENSE).
-
-<!--- Contact form and portfolio links sponsorship links-->
-[Contact Me](https://charudatta10.github.io/linktree/)
+<!-- Acknowledgment, References, Misc -->
